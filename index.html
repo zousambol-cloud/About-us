@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luminous Us | 我们发生过的光</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;1,300&family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fafaf9;
+      color: #1a1a1a;
+      overflow-x: hidden;
+    }
+    .serif {
+      font-family: 'Crimson Pro', serif;
+    }
+    .glass-light {
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      box-shadow: 0 8px 32px -4px rgba(0, 0, 0, 0.03);
+    }
+    .luminous-shadow {
+      box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.05), 0 0 20px rgba(255, 255, 255, 0.5);
+    }
+    .text-glow-light {
+      text-shadow: 0 0 15px rgba(255, 255, 255, 1), 0 0 5px rgba(0, 0, 0, 0.05);
+    }
+    @keyframes glow-drift-light {
+      0% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+      50% { transform: translate(5%, 10%) scale(1.1); opacity: 0.7; }
+      100% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+    }
+    .animate-glow-light {
+      animation: glow-drift-light 20s ease-in-out infinite;
+    }
+    ::-webkit-scrollbar {
+      width: 4px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+    }
+  </style>
+
+
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="./assets/index-BJagTGoh.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
